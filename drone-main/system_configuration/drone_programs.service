@@ -1,0 +1,14 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description="Drone program"
+
+[Service]
+User=bobosito
+Group=bobosito
+WorkingDirectory=/home/bobosito/drone
+ExecStart=/home/bobosito/drone/system_configuration/drone_program.sh
+Restart=always
+Environment="DRONE_DIR=/home/bobosito/drone"
+Environment="DRONE_DIR=/home/bobosito/lib/drone"

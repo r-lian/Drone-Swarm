@@ -1,0 +1,11 @@
+[Unit]
+Description="Fly drone in a cube"
+
+[Service]
+User=alarm
+WorkingDirectory=/home/alarm/drone/test_flights/cube
+ExecStart=/home/alarm/drone/test_flights/cube/fly-in-cube.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
