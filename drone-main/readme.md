@@ -21,8 +21,8 @@ When drone z receives a drone swarm dataset from drone x, drone z
 then updates its own drone swarm dataset with the received drone swarm dataset
 using the timestamps to indicate which drone data sets to update.
 
-Note: if the droneswarm sharing idea is done in its own threads, I could make
-the droneswarm dataset essentially a global variable that can be queried for information
+Note: if the drone swarm sharing idea is done in its own threads, I could make
+the drone swarm dataset essentially a global variable that can be queried for information
 instead of the current leader is sending gps location to each ip address in seperate threads.
 
 ## Pixhawk Setup
