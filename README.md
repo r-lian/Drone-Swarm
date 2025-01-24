@@ -2,7 +2,8 @@
 
 The purpose of this project is to implement drone swarm
 shape drawing using drone swarm data sharing.
-Collaborators: David Castellon, Graduate Research Assistant at the University of Louisville
+
+## Collaborators: David Castellon, Graduate Research Assistant at the University of Louisville
 
 ## Current Idea for drone swarm data sharing:
 
