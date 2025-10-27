@@ -1,12 +1,3 @@
-/**
- * @file offboard_velocity.cpp
- * @brief Example that demonstrates offboard velocity control in local NED and
- * body coordinates
- *
- * @authors Author: Julian Oes <julian@oes.ch>,
- *                  Shakthi Prashanth <shakthi.prashanth.m@intel.com>
- */
-
 #include <chrono>
 #include <cmath>
 #include <future>

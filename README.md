@@ -3,8 +3,6 @@
 The purpose of this project is to implement drone swarm
 shape drawing using drone swarm data sharing.
 
-## Collaborators: David Castellon, Graduate Research Assistant at the University of Louisville
-
 ## Current Idea for drone swarm data sharing:
 
 Each drone has a drone swarm data set that they keep track of.

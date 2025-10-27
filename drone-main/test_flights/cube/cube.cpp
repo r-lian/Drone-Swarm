@@ -2,7 +2,6 @@
 // setpoints in here exceed the default limits for vertical velocity in offboard mode.
 // These limits are found in params MPC_Z_VEL_MAX_DN and MPC_Z_VEL_MAX_UP
 // Either increase these limits or decrease the vertical velocity setpoints.
-/* David Castellon, Ethan Tracy */
 #include <chrono>
 #include <cmath>
 #include <future>

@@ -1,4 +1,3 @@
-/* David Castellon, Ethan Tracy */
 #include <chrono>
 #include <cmath>
 #include <future>

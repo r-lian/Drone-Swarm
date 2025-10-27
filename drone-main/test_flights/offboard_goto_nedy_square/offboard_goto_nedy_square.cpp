@@ -1,4 +1,3 @@
-/* David Castellon */
 #include <chrono>
 #include <cmath>
 #include <future>
