@@ -1,0 +1,39 @@
+# External Repositories
+# These are separate Git repositories that should be cloned independently
+PX4-Autopilot/
+MAVSDK/
+
+# Build directories and artifacts
+# These contain compiled binaries and generated files that should never be tracked
+**/build/
+**/cmake-build-*/
+**/*.so
+**/*.a
+**/*.dylib
+**/*.dll
+**/*.exe
+**/*.bin
+**/CMakeCache.txt
+**/CMakeFiles/
+**/cmake_install.cmake
+**/Makefile
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.o
+*.obj
+*.class
+*.log
+*.tmp
+
+# OS-specific files
+Thumbs.db
+*.lnk
+
